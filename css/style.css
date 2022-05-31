@@ -8,7 +8,7 @@
     padding: 0 auto;
     background-color: #222222;
 }
-.content{
+.page-scrol{
     background-color: rgb(238, 45, 45);
 }
 .side-photo{
@@ -83,4 +83,40 @@
     color: #FFFFFF;
     font-size: 14px;
     font-family: avenir_heavy;
+}
+.Header-head{
+    width: 100%;
+    background-color: aliceblue;
+}
+.content{
+    width: 1231px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+.content-list{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contant-ul{
+    display: flex;
+    align-items: center;
+}
+.contant-li{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    transition: border-radius, background-color;
+}
+.contant-li a{
+    padding:15px;
+    color: #222222;
+    font-size: 16px;
+    font-family: avenir_heavy;
+}
+.contant-li:hover{
+    background-color: #F2F2F2;
+    border-radius: 12px;
 }
