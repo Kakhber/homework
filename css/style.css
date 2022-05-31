@@ -1,0 +1,86 @@
+.page-container{
+    display: grid;
+    grid-template-columns: 319px auto;
+    height: 100vh;
+}
+.side-nav{
+    padding-top: 42px;
+    padding: 0 auto;
+    background-color: #222222;
+}
+.content{
+    background-color: rgb(238, 45, 45);
+}
+.side-photo{
+    width: 259px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-desing{
+    width: 146px;
+    height: 32px;
+}
+.logo-burge{
+    width: 26px;
+    height: 11px;
+}
+.side-list{
+    width: 259px;
+    margin-top: 106px;
+    margin-left: 30px;
+}
+.li-list{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    height: 60px;
+    transition: border-radius background-color ;
+}
+.li-list img{
+    width: 24px;
+    height: 24px;
+}
+.li-list span{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: avenir_medium;
+}
+.li-list:hover{
+    border-radius: 12px;
+    background-color: #FF2288;
+}
+.folowing-list{
+    margin-top: 89px;
+    margin-left: 60px;
+}
+.first-span{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: avenir_heavy;
+}
+.folowing-ul{
+    margin-top: 31px;
+}
+.folowing-li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.folowin-li img{
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+}
+.folowing-li span{
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: avenir_medium;
+}
+.second-span{
+    margin-top: 19px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: avenir_heavy;
+}
