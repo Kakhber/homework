@@ -136,7 +136,6 @@
 }
 .grid-container{
     max-width: 1231px;
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: minmax(auto 289px);
