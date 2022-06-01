@@ -135,7 +135,6 @@
     border-radius: 12px;
 }
 .grid-container{
-    max-width: 1231px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: minmax(auto 289px);
