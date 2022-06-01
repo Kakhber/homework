@@ -9,6 +9,7 @@
     background-color: #222222;
 }
 .page-scrol{
+    overflow-y: auto;
     background-color: rgb(238, 45, 45);
 }
 .side-photo{
@@ -84,12 +85,25 @@
     font-size: 14px;
     font-family: avenir_heavy;
 }
-.Header-head{
-    width: 100%;
-    background-color: aliceblue;
+.header-nav{
+    height: 56px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 91px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+.serch-nav{
+    display: flex;
+    justify-items: center;
+}
+.use-nav{
+    display: flex;
+    justify-content: center;
 }
 .content{
-    width: 1231px;
+    max-width: 1231px;
     margin: auto;
     background-color: #FFFFFF;
 }
@@ -119,4 +133,17 @@
 .contant-li:hover{
     background-color: #F2F2F2;
     border-radius: 12px;
+}
+.grid-container{
+    max-width: 1231px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 25px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
