@@ -10,7 +10,6 @@
 }
 .page-scrol{
     overflow-y: auto;
-    background-color: rgb(238, 45, 45);
 }
 .side-photo{
     width: 259px;
@@ -87,7 +86,8 @@
 }
 .header-nav{
     height: 56px;
-    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 71px;
     padding-left: 25px;
     padding-right: 91px;
     display: flex;
@@ -98,9 +98,55 @@
     display: flex;
     justify-items: center;
 }
+.search-bar{
+    width: 100%;
+    max-width: 446px;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 18px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    outline: none;
+    padding: 18px 0px;
+    font-size: 14px;
+    color: #111111;
+}
+::placeholder{
+    color: #111111;
+    opacity: 50%;
+}
+.search-bar button{
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    background: transparent;
+    cursor: pointer;
+}
+.search-bar button img{
+    width: 24px;
+}
 .use-nav{
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+.use-nav a{
+    margin-left:30px;
+}
+.use-a-1{
+    padding: 18px;
+    color: #FF2288;
+    font-size: 14px;
+    font-family: avenir_heavy;
+}
+.use-a-1:hover{
+    color: #FFFFFF;
+    background-color: #FF2288;
+    border-radius: 12px;
 }
 .content{
     max-width: 1231px;
@@ -224,4 +270,69 @@
     font-size: 12px;
     font-family: avenir_book;
     opacity: 60%;
+}
+.designers-li button{
+    margin-top:17px;
+    padding: 12px auto 13px auto;
+    transition: color background-color;
+}
+.designers-li button:hover{
+    color: white;
+    background-color: aqua;
+}
+.footer-div{
+    max-width: 1231px;
+    margin: auto;
+    margin-top: 69px;
+}
+.footer-info{
+    max-width: 1094px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column
+}
+.footer-box h4{
+    color: #222222;
+    font-size: 16px;
+    font-family: avenir_heavy;
+    margin-bottom: 36px;
+}
+.footer-box a{
+    color: #222222;
+    font-size: 16px;
+    margin-top:10px;
+    font-family: avenir_heavy;
+}
+.footer-final{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 113px;
+    margin-bottom: 40px;
+}
+.final-img-1{
+    max-width: 24px;
+    opacity: 0.6;
+}
+.final-img-2{
+    max-width: 24px;
+}
+.final-span-1{
+    color: #222222;
+    font-size: 16px;
+    font-family: avenir_book;
+}
+.final-span-2{
+    color: #222222;
+    font-size: 16px;
+    font-family: avenir_black;
+    font-weight: bold;
+}
+.first-tr{
+    color: #111111;
+    font-size: 18px;
 }
