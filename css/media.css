@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1060px) {
+    .page-container {
+        grid-template-columns: auto;
+    }
+    .side-nav {
+        display: none;
+    }
+    .side-page-nav{
+        display: flex;
+    }
+    .header-nav {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 0;
+        align-items: center;
+    }
+    .serch-nav {
+        margin-bottom: 20px;
+        height: 56px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contant-ul {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .designers-ul {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .use-nav a {
+        margin-left: 10px;
+        padding: 10px;
+    }
+}

@@ -84,6 +84,23 @@
     font-size: 14px;
     font-family: avenir_heavy;
 }
+.side-page-nav{
+    padding: 10px;
+    height: 56px;
+    display:none;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222222;
+}
+.page-nav-2 a img{
+    transition: background-color border-radius;
+}
+.page-nav-2 a img:hover{
+    background-color: #ff2288;
+    border-radius: 12px;
+    size: 120%;
+}
 .header-nav{
     height: 56px;
     margin-top: 30px;
