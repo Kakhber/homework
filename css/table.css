@@ -7,6 +7,10 @@
     border-collapse: collapse;
     width: 100%;
 }
+.first-tr{
+    color: #111111;
+    font-size: 18px;
+}
 th, td {
     cursor:zoom-in;
     padding: 8px;
